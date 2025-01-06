@@ -4,7 +4,7 @@
 
 ## Education
 - M.S., Computer Science	 |         The University of Illinois at Chicago (_May 2025_)
-- B.S., Physics (Research) | Indian Institute of Science (IISc), Bangalore (_May 2019_)
+- B.S., Physics (Research) | Indian Institute of Science (IISc), Bangalore (_May 2023_)
 
 ## Work Experience
 **Graduate Research Assistant @ Discovery Partners Institute (_October 2023 - Present_)**
@@ -43,6 +43,9 @@ Implemented weight orthogonalization techniques on the Meta Llama-3.1-8B model, 
 Trained a Variational AutoEncoder on MIDI files of classical music by artists such as Beethoven to learn the latent representation of it, and generate new music as a directed random walk in the latent space.
 
 [Link to Repository](https://github.com/raj1401/Automatic-Music-Generation-VAE)
+
+### BS Thesis - Deducing Gene Regulatory Networks using Machine Learning
+Developed a deep learning framework that solves the inverse problem of constructing Gene Regulatory Networks (GRNs) from gene expression time-series data. The framework was developed so that it easily scales training over various nodes of a HPC cluster. It was validated over the toggle switch and toggle triad networks, which are considered to be fundamental network motifs. Further showed how such a framework can be used to refine results further using edge-deletion and retraining techniques.
 
 #### View all projects on [GitHub](https://github.com/raj1401?tab=repositories)
 

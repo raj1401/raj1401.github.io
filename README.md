@@ -24,4 +24,24 @@ Designed and implemented a deep learning framework that utilizes Denoising Diffu
 [Link to Repository](https://github.com/raj1401/Diffusion-Gaussian-Splatting)
 
 ### Retrieval Augmented Generation (RAG) Chatbot
-Designed an RAG chatbot that runs your LLM of choice locally using Llama-cpp, refines user queries and context using relevant embeddings of documents provided by the user from a vector database.
+Designed an RAG chatbot that runs your LLM of choice locally using Llama-cpp, refines the context by extracting relevant embeddings of documents from a vector database, and responds to user queries accordingly. The embeddings of the documents provided by the user are created using the all-MiniLM-L6-v2 sentence-transformer, which are then stored in a Chroma vector database. Based on the user query and chat history, the current context is sequentially refined using relevant document chunks fetched from the database, before using a local LLM, such as Llama-3.1-8B, to generate the answer.
+[Link to Repository](https://github.com/raj1401/RAG-Chatbot)
+
+### Video Frame Interpolation - IFRNet Optimization
+Overhauled the Intermediate Feature Refine Network (IFRNet) architecture, enabling real-time video frame interpolation while maintaining high performance and visual stability. The first strategy was to reduce the depth of the model, achieving 21% reduction in model size and only 0.36% reduction in PSNR. The second strategy was to reduce the number of channels in the model, with which a 55% reduction in model size was achieved with only 2.28% degradation in PSNR. These lighter models can enable use of IFRNet on edge devices for real-time video frame interpolation, boosting the smoothness of videos stored locally and streamed from the internet.
+[Link to Repository](https://github.com/raj1401/Video-Frame-Interpolation-IFRNet)
+
+### Uncensoring Large Language Models using Abliteration
+Implemented weight orthogonalization techniques on the Meta Llama-3.1-8B model, enabling responses to restricted prompts with only a 1% performance reduction on MMLU and TruthfulQA benchmarks.
+[Link to Repository](https://github.com/raj1401/Uncensoring-LLMs-with-Abliteration)
+
+### Automatic Music Generation using VAEs
+Trained a Variational AutoEncoder on MIDI files of classical music by artists such as Beethoven to learn the latent representation of it, and generate new music as a directed random walk in the latent space.
+[Link to Repository](https://github.com/raj1401/Automatic-Music-Generation-VAE)
+
+#### View all projects on [GitHub](https://github.com/raj1401?tab=repositories)
+
+## Awards and Achievements
+- **IBM Quantum** (_2021_): Ranked top 5 in IBM's 2021 Global cohort in Quantum Machine Learning and received the [Certificate of Quantum Excellence](https://drive.google.com/file/d/1tvF_El8Z8HbEZylX7orT2sRt7g1OB9EP/view?usp=sharing).
+- **KVPY** (_2019_): Ranked 227 nationally (top 0.01%) in the Kishore Vaigyanik Protsahana Yojana (KVPY) exam conducted by the Department of Science and Technology, India. Received fully-funded scholarship for four years to pursue my Bachelor's degree at the Indian Institute of Science (IISc), Bangalore, India's premier institute for research education.
+- **PRL** (_2017_): Achieved a top 5 rank in a state-wide competition organized by the Physical Research Laboratory-ISRO and was awarded a two year scholarship to pursue higher secondary education.

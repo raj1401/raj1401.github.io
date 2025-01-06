@@ -3,8 +3,8 @@
 #### Technical Skills: Python, C++, CUDA C++, Azure, AWS, Docker, PyTorch
 
 ## Education
-M.S., Computer Science	| The University of Illinois at Chicago (_May 2025_)
-B.S., Physics (Research) | Indian Institute of Science (IISc), Bangalore (_May 2019_)
+- M.S., Computer Science	| The University of Illinois at Chicago (_May 2025_)
+- B.S., Physics (Research) | Indian Institute of Science (IISc), Bangalore (_May 2019_)
 
 ## Work Experience
 **Graduate Research Assistant @ Discovery Partners Institute (_October 2023 - Present_)**

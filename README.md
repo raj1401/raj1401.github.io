@@ -47,6 +47,8 @@ Trained a Variational AutoEncoder on MIDI files of classical music by artists su
 ### BS Thesis - Deducing Gene Regulatory Networks using Machine Learning
 Developed a deep learning framework that solves the inverse problem of constructing Gene Regulatory Networks (GRNs) from gene expression time-series data. The framework was developed so that it easily scales training over various nodes of a HPC cluster. It was validated over the toggle switch and toggle triad networks, which are considered to be fundamental network motifs. Further showed how such a framework can be used to refine results further using edge-deletion and retraining techniques.
 
+[Link to Repository](https://github.com/raj1401/Deducing-GRNs-Using-ML)
+
 #### View all projects on [GitHub](https://github.com/raj1401?tab=repositories)
 
 ## Awards and Achievements

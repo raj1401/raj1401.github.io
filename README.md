@@ -27,6 +27,8 @@ Designed and implemented a deep learning framework that utilizes Denoising Diffu
 ### Retrieval Augmented Generation (RAG) Chatbot
 Designed an RAG chatbot that runs your LLM of choice locally using Llama-cpp, refines the context by extracting relevant embeddings of documents from a vector database, and responds to user queries accordingly. The embeddings of the documents provided by the user are created using the all-MiniLM-L6-v2 sentence-transformer, which are then stored in a Chroma vector database. Based on the user query and chat history, the current context is sequentially refined using relevant document chunks fetched from the database, before using a local LLM, such as Llama-3.1-8B, to generate the answer.
 
+![RAG Chatbot Implementation](assets/img/RAG_Chatbot_Diagram.jpg)
+
 [Link to Repository](https://github.com/raj1401/RAG-Chatbot)
 
 ### Video Frame Interpolation - IFRNet Optimization

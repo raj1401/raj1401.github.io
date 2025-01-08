@@ -48,6 +48,8 @@ Implemented weight orthogonalization techniques on the Meta Llama-3.1-8B model, 
 
 Trained a Variational AutoEncoder on MIDI files of classical music by artists such as Beethoven to learn the latent representation of it, and generate new music as a directed random walk in the latent space.
 
+![VAE Architecture](assets/img/VAE_Music_Diagram.jpg)
+
 ### BS Thesis - Deducing Gene Regulatory Networks using Machine Learning
 [Link to Repository](https://github.com/raj1401/Deducing-GRNs-Using-ML)
 

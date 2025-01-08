@@ -34,6 +34,8 @@ Designed an RAG chatbot that runs your LLM of choice locally using Llama-cpp, re
 ### Video Frame Interpolation - IFRNet Optimization
 Overhauled the Intermediate Feature Refine Network (IFRNet) architecture, enabling real-time video frame interpolation while maintaining high performance and visual stability. The first strategy was to reduce the depth of the model, achieving 21% reduction in model size and only 0.36% reduction in PSNR. The second strategy was to reduce the number of channels in the model, with which a 55% reduction in model size was achieved with only 2.28% degradation in PSNR. These lighter models can enable use of IFRNet on edge devices for real-time video frame interpolation, boosting the smoothness of videos stored locally and streamed from the internet.
 
+![IFRNet Architecture](assets/img/IFRNet_Diagram.jpg)
+
 [Link to Repository](https://github.com/raj1401/Video-Frame-Interpolation-IFRNet)
 
 ### Uncensoring Large Language Models using Abliteration

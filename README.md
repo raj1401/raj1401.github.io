@@ -19,10 +19,10 @@
 - Engineered a parallelized framework optimized for high-performance computing systems to train deep learning models on time-series gene interaction data and accurately predict GRNs, significantly enhancing data processing efficiency and scalability.
 
 ## Projects & Research
-### MS Thesis - Diffusion Models for 3D Reconstruction
+### MS Thesis - Attention-Based Models for 3D Reconstruction
 [Link to Repository](https://github.com/raj1401/Diffusion-Gaussian-Splatting)
 
-Designed and implemented a deep learning framework that utilizes Denoising Diffusion Probabilistic Model (DDPM) architecture to learn Gaussian ellipsoid representation of 3D scenes. The trained model can be used to generate novel 3D scenes. Devised a multi-view guided sampling strategy to guide sampling from the trained DDPM in order to achieve desirable 3D scenes.
+Designed and implemented a deep learning framework that utilizes 3D Self-Attention mechanisms to learn Gaussian ellipsoid representation of 3D scenes and optimize them for improved visual performance and rendering speeds. The trained model can be used to optimize 3D scenes of any size. Devised a novel raymarching and gaussian splatting attribute ranking methodology to prune GS representations.
 
 ### Retrieval Augmented Generation (RAG) Chatbot
 [Link to Repository](https://github.com/raj1401/RAG-Chatbot)

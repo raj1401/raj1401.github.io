@@ -12,7 +12,7 @@
 - Led a multidisciplinary team, managing two week sprints, conducting code reviews, and collaborating with over 10 research teams, boosting research efficiency by 50%.
 - Implemented robust CI/CD pipelines using GitHub Actions and used Agile practices to streamline development, automate testing, and ensure seamless deployment.
 - Improved user satisfaction by 30% and improved user experience by providing a privacy-focused LLM-based chatbot integrated into the platform.
-- **Tech Stack**: PostgreSQL, Angular, Python, Microsoft Azure
+- **Tech Stack**: PostgreSQL, React, Python, Microsoft Azure
 
 **Undergraduate Research Engineer @ Cancer Systems Lab, IISc (_May 2022 - July 2023_)**
 - Directed the development of a high-performance genomic data storage and retrieval system and utilized deep learning to achieve 98% accuracy on Gene Regulatory Networks (GRNs) prediction.
